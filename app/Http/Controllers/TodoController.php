@@ -16,7 +16,7 @@ class TodoController extends Controller
 {
     /**
      * Este método del controlador regresa el listado del todos de la app
-     * en un response del tipo json.
+     * en un response del tipo json ordenados desde el más antiguo al más nuevo.
      *
      * @return \Illuminate\Http\JsonResponse
      */
