@@ -52,7 +52,7 @@ class TodoController extends Controller
     }
 
     /**
-     * Elimina el registro y devuelve un response 200 en caso de exito o un 404
+     * Elimina el registro y devuelve un response 200 en caso de exito o un 400
      * en caso de fallo pero igual en tipo json.
      *
      * @param integer $id
