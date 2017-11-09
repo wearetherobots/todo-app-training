@@ -14,7 +14,7 @@ Segunda parte:
 
 1. En una nueva rama creada a partir de `feature/fase-1` deben modificar el frontend dividiendo las partes de `Todo.vue`
    en varios componentes `TodoInput`, `TodoItem` para cada item todo en el listado. y el componente
-   `Todo` debe contener a estos.
+   `Todo` debe contener a estos. *ver el archivo screenshot.png*.
 2. Recuerda que la logica de añadir y eliminar deben estar en el `Todo` aunque los botones de acción estan en
    los demas componentes por lo que el `TodoInput` debe enviar un evento cuando la cadena nos sea vacia, el
    `TodoItem` debe tener 3 propiedades de componente (text: string, done: boolean, id: numeric) el cual al hacer
